@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Mia 1° Comunione · Lorenzo</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<!-- ═══════════ INTRO BUSTA ═══════════ -->
+
+<div id="intro">
+  <div class="gold-bar top"></div>
+  <div class="gold-bar bottom"></div>
+  <div class="intro-frame"></div>
+
+  <p class="intro-sub">✦ &nbsp; hai ricevuto un invito da Federico &nbsp; ✦</p>
+
+  <div class="env-scene" onclick="openEnvelope()">
+    <div class="envelope" id="envelope">
+      <div class="env-back">
+        <div class="env-left-tri"></div>
+        <div class="env-right-tri"></div>
+      </div>
+      <div class="env-flap"></div>
+      <div class="seal" id="seal">
+        <div class="seal-disc"><span class="seal-cross">✝</span></div>
+      </div>
+    </div>
+  </div>
+
+  <p class="tap-hint">
+    Clicca sul sigillo in <br>per aprire l'invito
+    <span>🏎️ &nbsp; Federico · 1° Comunione &nbsp; 🏎️</span>
+  </p>
+</div>
+
+<!-- ═══════════ INVITO ═══════════ -->
+
+<div id="invite">
+<div class="invite-inner">
+<div class="wrapper">
+
+  <div class="racing-bar"></div>
+
+  <div class="main-car-wrap">
+    <img src="images/Fede_image.jpeg" alt="Federico" class="main-car">
+  </div>
+
+  <div class="racing-bar"></div>
+
+  <div class="title-block">
+    <span class="label-small">✦ &nbsp; Prima Comunione &nbsp; ✦</span>
+    <div class="title-main">LA MIA <em>1°</em><br>COMUNIONE</div>
+    <span class="title-name">Federico</span>
+    <div class="gold-line"></div>
+    <span class="detail-pill">🏎️ &nbsp; Passione &nbsp;·&nbsp; Fede &nbsp;·&nbsp; Gioia &nbsp; 🏎️</span>
+  </div>
+
+  <div class="chalice-section">
+    <div class="date-side">
+      <span class="date-month">10 maggio</span>
+      <span class="date-year">2026</span>
+    </div>
+    <div class="chalice-wrap">
+      <div class="day-number">1</div>
+      <div class="chalice-icon">🏆</div>
+    </div>
+    <div class="date-side">
+      <span class="date-month" style="font-style:normal;font-size:13px;letter-spacing:2px;font-family:'Montserrat';font-weight:300;color:var(--textSoft);">ore</span>
+      <span class="date-year">11:30</span>
+    </div>
+  </div>
+
+  <!-- cars strip -->
+
+<!-- <div class="cars-strip">
+    <div class="cars-track">
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&q=80" alt="Ferrari"><span class="car-label">Ferrari 488</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=400&q=80" alt="Lamborghini"><span class="car-label">Lamborghini</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&q=80" alt="Porsche"><span class="car-label">Porsche 911</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1554744512-d6c603f27c54?w=400&q=80" alt="McLaren"><span class="car-label">McLaren</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1622651894706-fdbe5cbe7c18?w=400&q=80" alt="Aston Martin"><span class="car-label">Aston Martin</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&q=80" alt="Ferrari"><span class="car-label">Ferrari 488</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1525609004556-c46c7d6cf023?w=400&q=80" alt="Lamborghini"><span class="car-label">Lamborghini</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&q=80" alt="Porsche"><span class="car-label">Porsche 911</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1554744512-d6c603f27c54?w=400&q=80" alt="McLaren"><span class="car-label">McLaren</span></div>
+      <div class="car-thumb"><img src="https://images.unsplash.com/photo-1622651894706-fdbe5cbe7c18?w=400&q=80" alt="Aston Martin"><span class="car-label">Aston Martin</span></div>
+    </div>
+  </div> -->
+
+  <div class="divider">
+    <div class="div-line l"></div>
+    <span style="font-size:18px;opacity:.6;">⚜️</span>
+    <div class="div-line r"></div>
+  </div>
+
+  <!-- ISPIRAZIONE -->
+  <div style="text-align:center; padding:20px 24px; margin:8px 0;">
+    <p style="font-family:'Cormorant Garamond',serif; font-style:italic; font-size:15px; color:var(--textMid); line-height:1.8; margin-bottom:8px;">
+      "Chiunque tu sia, ricco o povero, mostra sempre forza e volontà.<br>
+      Fa' sempre tutto con amore e con una profonda fede in Dio.<br>
+      Un giorno, raggiungerai il tuo obiettivo."
+    </p>
+    <p style="font-size:9px; letter-spacing:2px; text-transform:uppercase; color:var(--gold); margin:0;">— Ayrton Senna</p>
+  </div>
+
+  <!-- BUTTONS -->
+
+  <div class="buttons-section">
+    <div class="btn-loc" onclick="openModal('chiesa')">
+      <div class="btn-img">
+        <img src="images/Chiesa1_image.jpg" alt="Chiesa">
+        <div class="btn-img-overlay"></div>
+      </div>
+      <div class="btn-text">
+        <span class="b-icon">⛪</span>
+        <span class="b-label">chiesa</span>
+        <span class="b-sub">Santa Maria Maggiore<br>Lenola</span>
+      </div>
+    </div>
+    <div class="btn-loc" onclick="openModal('location')">
+      <div class="btn-img">
+        <img src="images/Pozzi1_image.jpg" alt="Location">
+        <div class="btn-img-overlay"></div>
+      </div>
+      <div class="btn-text">
+        <span class="b-icon">🍾</span>
+        <span class="b-label">location</span>
+        <span class="b-sub">Ai Pozzi<br>di Lenola</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-note">
+    <p>Siete invitati alla mia prima comunione. <br>
+        Vi aspetto! <br>
+         E' gradita conferma.</p>
+    <p class="sig">Federico &nbsp;·&nbsp; 10 maggio 2026</p>
+    <div class="footer-ornament">✝ ✦ ✝</div>
+  </div>
+
+</div>
+</div>
+</div>
+
+<!-- ═══════════ MODAL CHIESA ═══════════ -->
+
+<div class="modal-overlay" id="modal-chiesa" onclick="closeModalOutside(event,'modal-chiesa')">
+  <div class="modal-box">
+    <div class="modal-handle"></div>
+    <div style="position:relative;">
+      <div class="modal-hero">
+        <img src="images/Chiesa1_image.jpg" alt="Chiesa">
+        <div class="modal-hero-overlay"></div>
+        <div class="modal-hero-title">
+          <h2>Santa Maria Maggiore</h2>
+          <p>Lenola · Latina · Lazio</p>
+        </div>
+      </div>
+      <div class="modal-close" onclick="closeModal('modal-chiesa')">✕</div>
+    </div>
+    <div class="modal-gallery">
+      <div class="modal-gallery-img"><img src="images/Chiesa1_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Chiesa2_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Chiesa3_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Chiesa4_image.jpg" alt=""></div>
+    </div>
+    <div class="modal-info">
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📍</span>
+        <div>
+          <div class="modal-info-label">Indirizzo</div>
+          <div class="modal-info-value">Piazza Santa Maria Maggiore<br>Lenola (LT) — Centro storico medievale</div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">🕙</span>
+        <div>
+          <div class="modal-info-label">Orario Cerimonia</div>
+          <div class="modal-info-value">Venerdì 1 maggio 2026 — ore 10:15</div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">✝</span>
+        <div>
+          <div class="modal-info-label">Note</div>
+          <div class="modal-info-value">Chiesa storica nel cuore del borgo medievale di Lenola, sui Monti Aurunci. Vi aspettiamo per condividere questo momento di grazia.</div>
+        </div>
+      </div>
+    </div>
+    <a class="modal-maps-btn" href="https://maps.google.com/?q=Santa+Maria+Maggiore+Lenola+LT" target="_blank">
+      📍 &nbsp; Apri in Google Maps
+    </a>
+  </div>
+</div>
+
+<!-- ═══════════ MODAL LOCATION ═══════════ -->
+
+<div class="modal-overlay" id="modal-location" onclick="closeModalOutside(event,'modal-location')">
+  <div class="modal-box">
+    <div class="modal-handle"></div>
+    <div style="position:relative;">
+      <div class="modal-hero">
+        <img src="images/Pozzi1_image.jpg" alt="Ai Pozzi di Lenola">
+        <div class="modal-hero-overlay"></div>
+        <div class="modal-hero-title">
+          <h2>Ai Pozzi di Lenola</h2>
+          <p>Ristorante · Ricevimenti · Lenola (LT)</p>
+        </div>
+      </div>
+      <div class="modal-close" onclick="closeModal('modal-location')">✕</div>
+    </div>
+    <div class="modal-gallery">
+      <div class="modal-gallery-img"><img src="images/Pozzi1_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Pozzi2_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Pozzi3_image.jpg" alt=""></div>
+      <div class="modal-gallery-img"><img src="images/Pozzi4_image.jpg" alt=""></div>
+    </div>
+    <div class="modal-info">
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📍</span>
+        <div>
+          <div class="modal-info-label">Indirizzo</div>
+          <div class="modal-info-value">Via Pozzavegli, 18<br>04025 Lenola (LT)</div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">🍽️</span>
+        <div>
+          <div class="modal-info-label">La Location</div>
+          <div class="modal-info-value">Salone elegante con terrazza panoramica, giardino e area piscina. Una delle location più suggestive dei Monti Aurunci per celebrare eventi speciali.</div>
+        </div>
+      </div>
+      <div class="modal-info-row">
+        <span class="modal-info-icon">📞</span>
+        <div>
+          <div class="modal-info-label">Contatti</div>
+          <div class="modal-info-value">0771 588055</div>
+        </div>
+      </div>
+    </div>
+    <a class="modal-maps-btn" href="https://maps.google.com/?q=Ai+Pozzi+di+Lenola+Via+Pozzavegli+18+Lenola" target="_blank">
+      📍 &nbsp; Apri in Google Maps
+    </a>
+  </div>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
